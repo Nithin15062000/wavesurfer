@@ -1,6 +1,10 @@
 #container {
   width: 100%;
   border: 1px red solid;
+  overflow: hidden;
+}
+wave {
+  transform: scaleY(1);
 }
 handle {
   background-color: rgba(0, 0, 0, 0) !important;
