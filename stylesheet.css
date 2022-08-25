@@ -1,0 +1,26 @@
+#container {
+  width: 100%;
+  border: 1px red solid;
+}
+handle {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.wavesurfer-region[data-id="bot"] {
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: hue-rotate(50deg) saturate(84%);
+}
+.wavesurfer-region[data-id="customer"] {
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: hue-rotate(250deg) saturate(84%);
+}
+.wavesurfer-region[data-id="trimmer"] {
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: hue-rotate(300deg) saturate(84%);
+}
+.wavesurfer-region[data-id="trimmer"] handle {
+  background-color: rgb(12, 9, 9) !important;
+}
+span {
+  position: absolute;
+  z-index: 2;
+}
